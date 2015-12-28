@@ -1,5 +1,4 @@
-# Amazon Associates Show Related Products WordPress Plugin
-
+# Amazon Associates Show Related Products
 Contributors: Tadas Pocius
 Tags: amazon associates, affiliate, monetizing content
 Tested up to: 4.4
@@ -24,6 +23,8 @@ For more information visit:
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Set your Tracking ID from Amazon Associates (abcdefgh-01) to the settings (Admin > Settings > Amazon Related Products)
 
-# Version Info
+# Screenshots
 
-1.0 Plugin created.
+1. Administration panel.
+2. Widget display example.
+3. Shortcode placing example.
