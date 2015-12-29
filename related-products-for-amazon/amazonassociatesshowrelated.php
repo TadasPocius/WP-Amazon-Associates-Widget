@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: Amazon Associates Show Related Products
-Plugin URI: http://wordpress.org/extend/plugins/amazonassociatesshowrelated/
-Description: Enables <a href="https://affiliate-program.amazon.com/" target="_blank">Amazon Associates</a> keyword related products on selected pages.
+Plugin Name: Related Products For Amazon
+Plugin URI: http://wordpress.org/extend/plugins/related-products-for-amazon/
+Description: Enables a responsive layout widget based on <a href="https://affiliate-program.amazon.com/" target="_blank">Amazon Associates</a> which uses keywords to show related products from Amazon market place and helps you to increase revenue from your content.
 Version: 1.0
 Author: Tadas Pocius
 Author URI: http://fiction.lt/
@@ -24,7 +24,7 @@ function aasrp_admin_init() {
 }
 
 function aasrp_admin_actions(){
-	add_options_page('Amazon Associates Show Related Products', 'Amazon Related Products', 'manage_options', __FILE__, 'aasrp_admin');
+	add_options_page('Related Products For Amazon', 'Related Products for Amazon', 'manage_options', __FILE__, 'aasrp_admin');
 }
 
 function aasrp_admin(){
@@ -35,8 +35,8 @@ function aasrp_admin(){
 	
 	?>
 	<div class="wrap">
-		<h2>Amazon Associates Show Related Products Plugin</h2>
-		<h4>A responsive widget which shows recommended Amazon marketplace products based on keywords.</h4>
+		<h2>Related Products For Amazon Plugin</h2>
+		<h4>A responsive layout widget based on <a href="https://affiliate-program.amazon.com/" target="_blank">Amazon Associates</a> which uses keywords to show related products from Amazon market place and helps you to increase revenue from your content.</h4>
 		<form method="POST" action="">
 		<?php wp_nonce_field('update-options'); ?>
 		<?php settings_fields('amazonassociatesshowrelated'); ?>
